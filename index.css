@@ -54,6 +54,10 @@ header {
     justify-self: center; 
 }
 
+.fa-bars {
+    display: none;
+}
+
 .icon {
     justify-self: flex-end;
     list-style: none;
@@ -84,6 +88,10 @@ h4 {
     line-height: 40px;
 }
 
+.introdution-phone {
+    display: none;
+}
+
 button {
     margin-top: 5.6rem;
     background-color: #2091F9;
@@ -100,4 +108,42 @@ button:hover {
 
 button:active {
     color: #000000;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    
+    header {
+        background-image: url(img/header-mini.png);
+        height: 847px;
+    }
+
+    .container {
+        justify-content: space-around;
+    }
+
+    .menu, .icon, h4 {
+        display: none;
+    }
+    .fa-bars {
+        display: inline-block;
+    }
+
+    h1 {
+        font-size: 3.4rem;
+        line-height: 4rem;
+        font-weight: 400;
+        width: 24rem;
+        margin: 0 auto;
+        margin-top: 8.4rem;
+    }
+
+    .introdution-phone {
+        display: inline-block;
+        width: 265px;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
 }
