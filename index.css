@@ -41,11 +41,11 @@ header {
 }
 
 .menu-tab:hover, .icon-link:hover {
-    color:cyan;
+    color:#00ffff;
 }
 
 .menu-tab:active, .icon-link:active {
-    color:darkcyan;
+    color:#008b8b;
 }
 
 .logo {
@@ -63,24 +63,28 @@ header {
 }
 
 .icon-link {
-    color: white;
+    color: #ffffff;
 }
 
 h1 {
+    margin: 0 auto;
     margin-top: 10rem;
     font-size: 74px;
     line-height: 84px;
     font-weight: bold;
+    width: 42rem;
 }
 
 h4 {
-    margin-top: 1.7rem;
+    width: 48rem;
+    margin: 0 auto;
+    margin-top: 2rem;
     font-weight: 400;
     font-size: 28px;
     line-height: 40px;
 }
 
-.button {
+button {
     margin-top: 5.6rem;
     background-color: #2091F9;
     width: 236px;
@@ -90,10 +94,10 @@ h4 {
     color: #FFFFFF;
 }
  
-.button:hover {
-    background-color: aqua;
+button:hover {
+    background-color: #00ffff;
 }
 
-.button:active {
-    color: black;
+button:active {
+    color: #000000;
 }
