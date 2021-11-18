@@ -41,17 +41,21 @@ header {
 }
 
 .menu-tab:hover, .icon-link:hover {
-    color:cyan;
+    color:#00ffff;
 }
 
 .menu-tab:active, .icon-link:active {
-    color:darkcyan;
+    color:#008b8b;
 }
 
 .logo {
     width: 186px;
     height: 58px;
     justify-self: center; 
+}
+
+i.fa-bars {
+    display: none;
 }
 
 .icon {
@@ -63,24 +67,32 @@ header {
 }
 
 .icon-link {
-    color: white;
+    color: #ffffff;
 }
 
 h1 {
+    margin: 0 auto;
     margin-top: 10rem;
     font-size: 74px;
     line-height: 84px;
     font-weight: bold;
+    max-width: 42rem;
 }
 
 h4 {
-    margin-top: 1.7rem;
+    max-width: 48rem;
+    margin: 0 auto;
+    margin-top: 2rem;
     font-weight: 400;
     font-size: 28px;
     line-height: 40px;
 }
 
-.button {
+.introdution-phone {
+    display: none;
+}
+
+button {
     margin-top: 5.6rem;
     background-color: #2091F9;
     width: 236px;
@@ -90,10 +102,58 @@ h4 {
     color: #FFFFFF;
 }
  
-.button:hover {
-    background-color: aqua;
+button:hover {
+    background-color: #00ffff;
 }
 
-.button:active {
-    color: black;
+button:active {
+    color: #000000;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    
+    header {
+        background-image: url("img/header-mini.png");
+        height: 847px;
+    }
+
+    .container {
+        justify-content: space-around;
+    }
+
+    .menu, .icon, h4 {
+        display: none;
+    }
+
+    i.fa-bars {
+        display: inline-block;
+        color:#FFFFFF;
+    }
+    
+    i.fa-bars:hover {
+        color:#00ffff
+    }
+    
+    i.fa-bars:active {
+        color: #008b8b
+    }
+
+    h1 {
+        font-size: 3.4rem;
+        line-height: 4rem;
+        font-weight: 400;
+        max-width: 24rem;
+        margin: 0 auto;
+        margin-top: 8.4rem;
+    }
+
+    .introdution-phone {
+        display: inline-block;
+        max-width: 19rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
 }
