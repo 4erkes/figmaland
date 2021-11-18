@@ -76,7 +76,7 @@ h1 {
     font-size: 74px;
     line-height: 84px;
     font-weight: bold;
-    width: 42rem;
+    max-width: 42rem;
 }
 
 h4 {
@@ -145,14 +145,14 @@ button:active {
         font-size: 3.4rem;
         line-height: 4rem;
         font-weight: 400;
-        width: 24rem;
+        max-width: 24rem;
         margin: 0 auto;
         margin-top: 8.4rem;
     }
 
     .introdution-phone {
         display: inline-block;
-        width: 265px;
+        max-width: 19rem;
         margin: 0 auto;
         margin-top: 2rem;
     }
