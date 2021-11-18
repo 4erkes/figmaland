@@ -54,7 +54,7 @@ header {
     justify-self: center; 
 }
 
-.fa-bars {
+i.fa-bars {
     display: none;
 }
 
@@ -80,7 +80,7 @@ h1 {
 }
 
 h4 {
-    width: 48rem;
+    max-width: 48rem;
     margin: 0 auto;
     margin-top: 2rem;
     font-weight: 400;
@@ -116,7 +116,7 @@ button:active {
     }
     
     header {
-        background-image: url(img/header-mini.png);
+        background-image: url("img/header-mini.png");
         height: 847px;
     }
 
@@ -127,8 +127,18 @@ button:active {
     .menu, .icon, h4 {
         display: none;
     }
-    .fa-bars {
+
+    i.fa-bars {
         display: inline-block;
+        color:#FFFFFF;
+    }
+    
+    i.fa-bars:hover {
+        color:#00ffff
+    }
+    
+    i.fa-bars:active {
+        color: #008b8b
     }
 
     h1 {
