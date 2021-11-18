@@ -1,0 +1,159 @@
+body {
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("img/header.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position:center;
+    color: #FFFFFF;
+    height: 930px;
+    width: auto;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    padding-top: 2rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-tab {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 3rem;
+}
+
+.menu-tab:hover, .icon-link:hover {
+    color:#00ffff;
+}
+
+.menu-tab:active, .icon-link:active {
+    color:#008b8b;
+}
+
+.logo {
+    width: 186px;
+    height: 58px;
+    justify-self: center; 
+}
+
+i.fa-bars {
+    display: none;
+}
+
+.icon {
+    justify-self: flex-end;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.icon-link {
+    color: #ffffff;
+}
+
+h1 {
+    margin: 0 auto;
+    margin-top: 10rem;
+    font-size: 74px;
+    line-height: 84px;
+    font-weight: bold;
+    max-width: 42rem;
+}
+
+h4 {
+    max-width: 48rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.introdution-phone {
+    display: none;
+}
+
+button {
+    margin-top: 5.6rem;
+    background-color: #2091F9;
+    width: 236px;
+    height: 52px;
+    border: none;
+    border-radius: 35px;
+    color: #FFFFFF;
+}
+ 
+button:hover {
+    background-color: #00ffff;
+}
+
+button:active {
+    color: #000000;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    
+    header {
+        background-image: url("img/header-mini.png");
+        height: 847px;
+    }
+
+    .container {
+        justify-content: space-around;
+    }
+
+    .menu, .icon, h4 {
+        display: none;
+    }
+
+    i.fa-bars {
+        display: inline-block;
+        color:#FFFFFF;
+    }
+    
+    i.fa-bars:hover {
+        color:#00ffff
+    }
+    
+    i.fa-bars:active {
+        color: #008b8b
+    }
+
+    h1 {
+        font-size: 3.4rem;
+        line-height: 4rem;
+        font-weight: 400;
+        max-width: 24rem;
+        margin: 0 auto;
+        margin-top: 8.4rem;
+    }
+
+    .introdution-phone {
+        display: inline-block;
+        max-width: 19rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+}
