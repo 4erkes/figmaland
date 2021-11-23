@@ -54,7 +54,7 @@ header {
     justify-self: center; 
 }
 
-i.fa-bars, .minivideo, .small {
+i.fa-bars {
     display: none;
 }
 
@@ -88,6 +88,10 @@ h4 {
     line-height: 40px;
 }
 
+.introdution-phone {
+    display: none;
+}
+
 button {
     margin-top: 5.6rem;
     background-color: #2091F9;
@@ -96,7 +100,6 @@ button {
     border: none;
     border-radius: 35px;
     color: #FFFFFF;
-    cursor: pointer;
 }
  
 button:hover {
@@ -105,38 +108,6 @@ button:hover {
 
 button:active {
     color: #000000;
-}
-
-.peculiarities {
-    margin-top: 10rem;
-}
-
-h2 {
-    line-height: 3.5rem;
-    font-size: 3rem;
-}
-
-.features {
-    margin-top: 6rem;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.features-paragraph {
-    width: 13rem;
-}
-
-.features-paragraph:not(:last-child) {
-    margin-right: 5rem;
-}
-
-.features-paragraph i {
-    color:#2091F9;
-}
-
-.features-paragraph h3 {
-    font-size: 1.25rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -153,19 +124,12 @@ h2 {
         justify-content: space-around;
     }
 
-    .menu, .icon, .full, .video {
+    .menu, .icon, h4 {
         display: none;
     }
 
-    i.fa-bars, .small, .minivideo {
-        display: inline-block;
-    }
-
-    .small {
-        max-width: 19rem;
-    }
-
     i.fa-bars {
+        display: inline-block;
         color:#FFFFFF;
     }
     
@@ -186,18 +150,10 @@ h2 {
         margin-top: 8.4rem;
     }
 
-    .minivideo {
-        width: 100%;
-        height: auto;
-        margin-top: 4rem;
-    }
-
-    .features {
-        flex-direction: column;
-        padding-inline-start: 0;
-    }
-
-    .features .features-paragraph {
-        margin: 4rem auto;
+    .introdution-phone {
+        display: inline-block;
+        max-width: 19rem;
+        margin: 0 auto;
+        margin-top: 2rem;
     }
 }
