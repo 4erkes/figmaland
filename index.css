@@ -194,7 +194,8 @@ h2 {
     
     header {
         background-image: url("img/header-mini.png");
-        height: 847px;
+        background-size: auto;
+        height: 850px;
     }
 
     .container {
