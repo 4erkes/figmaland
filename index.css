@@ -100,6 +100,7 @@ button {
     border: none;
     border-radius: 35px;
     color: #FFFFFF;
+    cursor: pointer;
 }
  
 button:hover {
@@ -108,6 +109,25 @@ button:hover {
 
 button:active {
     color: #000000;
+}
+
+.peculiarities {
+    margin-top: 10rem;
+}
+
+.features {
+    margin-top: 6rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.fetures-paragraph {
+    width: 14rem;
+}
+
+.fetures-paragraph:not(:last-child) {
+    margin-right: 5rem;
 }
 
 @media screen and (max-width: 480px) {
