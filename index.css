@@ -161,6 +161,10 @@ ul.list-content button{
     float: left;
 }
 
+.list-content{
+    width: 50%;
+}
+
 .laptop{
     order: 2;
     width: 50%;
@@ -249,5 +253,9 @@ ul.list-content button{
 
     .features .features-paragraph {
         margin: 4rem auto;
+    }
+
+    .slate {
+        opacity: 0;
     }
 }
